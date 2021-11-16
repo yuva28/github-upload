@@ -1,0 +1,35 @@
+Linux command
+
+ls -list contents in directory
+ls-l = long display
+
+ls-r 			= display in reverse
+ls -l -r
+ls -rl
+ls -lr
+
+aptitude command is a package management tool available on some Linux distributions. This command will accept moo as an argument:
+
+sysadmin@localhost:~$ aptitude moo  
+There are no Easter Eggs in this program.
+
+multiple opts:
+aptitude -v(verbose) -v moo
+aptitude -vv moo
+
+pwd command prints the working directory, your current location within the filesystem
+cd (change directory) command to change directories.
+
+cd [options] [path]
+To move to the root directory, use the / character as the argument to the cd command.
+
+o/p:
+sysadmin@localhost:~/Documents$ cd /
+sysadmin@localhost:/$
+
+Relative paths do not start with the / character, they start with the name of a directory.
+eg:
+sysadmin@localhost:~$ cd Documents                                              
+sysadmin@localhost:~/Documents$ 
+
+
